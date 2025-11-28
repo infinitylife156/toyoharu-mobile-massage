@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>よくある質問 | ほぐし処豊春 法人出張整体</title>
+    <meta name="description" content="ほぐし処豊春の法人出張整体サービスに関するよくある質問（FAQ）です。導入前の疑問や不安を解消します。">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Noto Serif JP', serif;
+        }
+
+        /* FAQ Accordion Styles */
+        .faq-item {
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .faq-question {
+            width: 100%;
+            text-align: left;
+            padding: var(--spacing-md) 0;
+            background: none;
+            border: none;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: var(--text-color);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            transition: transform 0.3s ease;
+        }
+
+        .faq-question.active::after {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            padding-left: var(--spacing-md);
+            border-left: 3px solid var(--primary-color);
+        }
+
+        .faq-answer p {
+            padding-bottom: var(--spacing-md);
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">ほぐし処豊春<span
+                    style="font-size: 0.8rem; margin-left: 10px; font-weight: normal;">法人出張整体サービス</span></a>
+            <button class="mobile-menu-btn" aria-label="メニューを開く">☰</button>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">ホーム</a></li>
+                    <li><a href="service.html" class="nav-link">サービス・料金</a></li>
+                    <li><a href="about.html" class="nav-link">店舗・スタッフ紹介</a></li>
+                    <li><a href="faq.html" class="nav-link active">よくある質問</a></li>
+                    <li><a href="contact.html" class="btn btn-primary">無料体験を申し込む</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="section bg-accent text-center">
+        <div class="container">
+            <h1>よくある質問</h1>
+            <p>導入をご検討中の企業様からいただく、よくあるご質問をまとめました。</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="container" style="max-width: 800px;">
+
+            <!-- Category: Service -->
+            <h2
+                style="font-size: 1.5rem; border-left: 5px solid var(--primary-color); padding-left: 10px; margin-bottom: var(--spacing-md); margin-top: var(--spacing-lg);">
+                サービスについて</h2>
+
+            <div class="faq-item">
+                <button class="faq-question">対応エリアはどこまでですか？</button>
+                <div class="faq-answer">
+                    <p>現在は、春日部市、越谷市、さいたま市岩槻区周辺を中心に対応しております。その他のエリアにつきましても、一度ご相談ください。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">定期契約の縛りはありますか？</button>
+                <div class="faq-answer">
+                    <p>いいえ、単発（スポット）でのご利用も大歓迎です。「まずは社内イベントで1回だけ」といったご利用も可能ですので、お気軽にお試しください。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">就業時間中に施術を受けても大丈夫ですか？</button>
+                <div class="faq-answer">
+                    <p>はい、多くの企業様が休憩時間や業務の合間を利用されています。「15分コース」など、短時間でリフレッシュできるメニューもございますので、業務への支障を最小限に抑えられます。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">何人から利用できますか？</button>
+                <div class="faq-answer">
+                    <p>最低利用時間は2時間〜となっております。例えば、30分コースなら4名様、60分コースなら2名様からご利用いただけます。</p>
+                </div>
+            </div>
+
+            <!-- Category: Preparation -->
+            <h2
+                style="font-size: 1.5rem; border-left: 5px solid var(--primary-color); padding-left: 10px; margin-bottom: var(--spacing-md); margin-top: var(--spacing-lg);">
+                準備・場所について</h2>
+
+            <div class="faq-item">
+                <button class="faq-question">施術スペースはどのくらい必要ですか？</button>
+                <div class="faq-answer">
+                    <p>会議室1室、またはデスク脇のちょっとしたスペース（2畳程度）があれば施術可能です。ベッドやタオルなどの備品はすべて弊社が持参いたしますので、特別なご準備は不要です。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">社員は何を用意すればいいですか？</button>
+                <div class="faq-answer">
+                    <p>特にご用意いただくものはございません。服装もそのままで施術を受けていただけます。シワが気になる方には、お着替え（無料）もご用意しております。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">会議室がガラス張りで外から見えてしまうのですが...</button>
+                <div class="faq-answer">
+                    <p>簡易的なパーテーションや目隠し用の布を持参することも可能です。プライバシーに配慮した設営を行いますので、ご安心ください。</p>
+                </div>
+            </div>
+
+            <!-- Category: Payment -->
+            <h2
+                style="font-size: 1.5rem; border-left: 5px solid var(--primary-color); padding-left: 10px; margin-bottom: var(--spacing-md); margin-top: var(--spacing-lg);">
+                料金・支払いについて</h2>
+
+            <div class="faq-item">
+                <button class="faq-question">支払い方法はどうなりますか？</button>
+                <div class="faq-answer">
+                    <p>月末締めの請求書払い（銀行振込）に対応しております。福利厚生費として計上していただけます。また、社員様が一部負担される場合の現地決済（現金・PayPay等）も可能です。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">出張費はかかりますか？</button>
+                <div class="faq-answer">
+                    <p>春日部市、越谷市、さいたま市岩槻区エリアは出張費無料です。それ以外のエリアにつきましては、距離に応じて1,000円〜の出張費を頂戴する場合がございます。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">キャンセル料はかかりますか？</button>
+                <div class="faq-answer">
+                    <p>前日までのキャンセルは無料です。当日のキャンセルにつきましては、予定していた施術料金の50%を申し受けます。</p>
+                </div>
+            </div>
+
+            <!-- Category: Staff -->
+            <h2
+                style="font-size: 1.5rem; border-left: 5px solid var(--primary-color); padding-left: 10px; margin-bottom: var(--spacing-md); margin-top: var(--spacing-lg);">
+                スタッフ・その他</h2>
+
+            <div class="faq-item">
+                <button class="faq-question">女性スタッフに来てもらうことはできますか？</button>
+                <div class="faq-answer">
+                    <p>はい、可能です。女性スタッフも多数在籍しておりますので、ご要望がございましたらお気軽にご相談ください。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">毎回同じスタッフに来てもらえますか？</button>
+                <div class="faq-answer">
+                    <p>基本的には担当制とさせていただいておりますが、スケジュール等の都合により別のスタッフが伺う場合もございます。その際は、カルテ等でしっかりと引き継ぎを行います。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">無料体験では何をしてくれますか？</button>
+                <div class="faq-answer">
+                    <p>実際にオフィスに伺い、施術（お一人様15分程度×人数分）を体験していただけます。また、導入に関するご相談や、最適なプランのご提案もさせていただきます。</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section bg-accent text-center">
+        <div class="container">
+            <h2 style="margin-bottom: var(--spacing-md);">その他のご質問は<br>お気軽にお問い合わせください</h2>
+            <p style="margin-bottom: var(--spacing-lg);">導入前の不安や疑問、どんなことでも丁寧にお答えいたします。</p>
+            <a href="contact.html" class="btn btn-primary btn-lg">お問い合わせフォームへ</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3 class="footer-title">ほぐし処豊春<br><span style="font-size: 0.8rem;">法人出張整体サービス</span></h3>
+                    <p>埼玉県春日部市道口蛭田177-6</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">メニュー</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="service.html">サービス・料金</a></li>
+                        <li><a href="about.html">店舗・スタッフ紹介</a></li>
+                        <li><a href="faq.html">よくある質問</a></li>
+                        <li><a href="contact.html">お問い合わせ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">対応エリア</h4>
+                    <p>春日部市、越谷市、さいたま市岩槻区周辺</p>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Hogushidokoro Toyoharu. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Simple Accordion Script
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                button.classList.toggle('active');
+                const answer = button.nextElementSibling;
+                if (button.classList.contains('active')) {
+                    answer.style.maxHeight = answer.scrollHeight + 'px';
+                } else {
+                    answer.style.maxHeight = 0;
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
